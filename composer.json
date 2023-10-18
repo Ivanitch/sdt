@@ -1,0 +1,26 @@
+{
+    "name": "ivanitch/sdt",
+    "description": "PHP developer testing",
+    "minimum-stability": "stable",
+    "config": {
+        "sort-packages": true,
+		"process-timeout": 0,
+        "allow-plugins": {
+            "php-http/discovery": true
+        }
+    },
+    "require": {
+        "php": "^8.2"
+    },
+    "require-dev": {
+        "jetbrains/phpstorm-attributes": "^1.0",
+        "maglnet/composer-require-checker": "^4.3",
+        "roave/security-advisories": "dev-master",
+        "symfony/var-dumper": "^6.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    }
+}
